@@ -1,3 +1,3 @@
 #! /usr/bin/env bun
 
-console.log("I am manish");
+console.log("hello world");

@@ -1,7 +1,14 @@
 {
   "name": "mnx",
+  "version": "0.0.2",
   "bin": {
     "mnx": "./index.ts"
+  },
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "repository": {
+    "url": "https://github.com/mnsdojo/mnx"
   },
   "module": "index.ts",
   "type": "module",
