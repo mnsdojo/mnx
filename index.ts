@@ -7,6 +7,7 @@ import { Tui } from "./lib/ui";
 async function main() {
   const githubService = new GithubService();
   const username = "mnsdojo";
+  console.log(Tui.colorize("loading..."));
 
   try {
     const [repoInfo, totalStars, figletText] = await Promise.all([
